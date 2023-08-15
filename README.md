@@ -3,12 +3,9 @@
 <br>
 creating docker image: docker build -t my-python-app .
 <br>
-
 docker tag my-python-app gcr.io/google-cloud-project/my-python-app
-
 <br>
 docker push gcr.io/google-cloud-project/my-python-app
-
 <br>
 gcloud container clusters create --num-nodes=1 --zone=us-central1-a
 <br>
